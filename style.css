@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;   
+}
+html{
+    background-image: url("./images/A.D.Patel_Institute_Of_Technology1.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 70vh;
+}
+.hero-section{
+    color: rgb(48,63,114);
+    background-color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/* Drop Down Section */
+.heading{
+    font-family: 'Varela Round', sans-serif;
+    z-index: 999;
+    position: absolute;
+    top: 79.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    background-color: rgb(246, 189, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+.wrapper{
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    border-radius:15px;
+    color: black;
+    font-size:larger;
+    font-weight:bolder;
+    background-color:rgb(48,63,114); 
+}
+form{
+    display: flex;
+}
+.select{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    color: rgb(246, 189, 0);
+}
+select{
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width:200px;
+}
+.select p{
+    margin: 0 1% 0 0;
+}
+#Semester{
+    margin: 0 1% 0 5%;
+}
+#Searchbutton{
+    
+    margin: 0 0 0 3em;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius:10px;
+    border: none;
+    color: rgb(246, 189, 0);
+    background-color:rgb(35, 107, 207);
+}
+#Searchbutton:hover{
+    background-color:rgb(50, 73, 151);
+}
+
+
